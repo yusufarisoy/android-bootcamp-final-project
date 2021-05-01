@@ -24,7 +24,7 @@ Toplam harcama ve her harcamanın tek tek fiyatını istenilen para biriminde **
 
 ![alt text](images/create_screen.jpg)
 
-Her harcamanın ayrı ayrı detayını görebileceğiniz bir detay sayfası. İstenildiği takdirde harcama silinebilir.
+Her harcamanın ayrı ayrı detayını, istediğiniz para biriminde görebileceğiniz bir detay sayfası. İstenildiği takdirde harcama buradan silinebilir.
 
 ![alt text](images/detail_screen.jpg)
 
