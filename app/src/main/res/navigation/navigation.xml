@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/splashFragment"
+    android:id="@+id/navigation">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.example.expensetracker.screens.splash.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash">
+        <action
+            android:id="@+id/action_splashFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/splashFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_splashFragment_to_onBoardingFragment1"
+            app:destination="@id/onBoardingFragment1"
+            app:popUpTo="@id/splashFragment"
+            app:popUpToInclusive="true"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.expensetracker.screens.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_profileFragment"
+            app:destination="@id/profileFragment"/>
+        <action
+            android:id="@+id/action_homeFragment_to_expenseCreateFragment"
+            app:destination="@id/expenseCreateFragment"/>
+        <action
+            android:id="@+id/action_homeFragment_to_expenseDetailFragment"
+            app:destination="@id/expenseDetailFragment"/>
+        <argument
+            android:name="currentCurrency"
+            app:argType="integer"
+            android:defaultValue="1" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.expensetracker.screens.profile.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile">
+        <action
+            android:id="@+id/action_profileFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/homeFragment"
+            app:popUpToInclusive="true"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/expenseDetailFragment"
+        android:name="com.example.expensetracker.screens.expense.expensedetail.ExpenseDetailFragment"
+        android:label="fragment_expense_detail"
+        tools:layout="@layout/fragment_expense_detail">
+        <action
+            android:id="@+id/action_expenseDetailFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/homeFragment"
+            app:popUpToInclusive="true"/>
+        <argument
+            android:name="selectedExpense"
+            app:argType="com.example.expensetracker.database.Expense"/>
+        <argument
+            android:name="selectedCurrencyType"
+            app:argType="integer"
+            android:defaultValue="1"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/expenseCreateFragment"
+        android:name="com.example.expensetracker.screens.expense.expensecreate.ExpenseCreateFragment"
+        android:label="fragment_expense_create"
+        tools:layout="@layout/fragment_expense_create">
+        <action
+            android:id="@+id/action_expenseCreateFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/homeFragment"
+            app:popUpToInclusive="true"/>
+    </fragment>
+
+    <!-- ON BOARDING -->
+
+    <fragment
+        android:id="@+id/onBoardingFragment1"
+        android:name="com.example.expensetracker.screens.onboarding.OnBoardingFragment1"
+        android:label="fragment_on_boarding_1"
+        tools:layout="@layout/fragment_on_boarding_1">
+        <action
+            android:id="@+id/action_onBoardingFragment1_to_onBoardingFragment2"
+            app:destination="@id/onBoardingFragment2"
+            app:popUpTo="@id/onBoardingFragment1"
+            app:popUpToInclusive="true"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/onBoardingFragment2"
+        android:name="com.example.expensetracker.screens.onboarding.OnBoardingFragment2"
+        android:label="fragment_on_boarding_2"
+        tools:layout="@layout/fragment_on_boarding_2">
+        <action
+            android:id="@+id/action_onBoardingFragment2_to_onBoardingFragment3"
+            app:destination="@id/onBoardingFragment3"
+            app:popUpTo="@id/onBoardingFragment2"
+            app:popUpToInclusive="true"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/onBoardingFragment3"
+        android:name="com.example.expensetracker.screens.onboarding.OnBoardingFragment3"
+        android:label="fragment_on_boarding_3"
+        tools:layout="@layout/fragment_on_boarding_3">
+        <action
+            android:id="@+id/action_onBoardingFragment3_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/onBoardingFragment3"
+            app:popUpToInclusive="true"/>
+    </fragment>
+</navigation>

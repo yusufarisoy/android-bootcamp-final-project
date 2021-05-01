@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">ExpenseTracker</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="content_description">Image</string>
+    <!--SplashScreen-->
+    <string name="splash_title">Harcama Takip Uygulaması</string>
+    <!--OnBoardingScreens-->
+    <string name="on_boarding_title_1">Karşınızda Harcama Takip Uygulaması</string>
+    <string name="on_boarding_subtitle_1">Artık karışıklığa son !</string>
+    <string name="btn_skip">Geç</string>
+    <string name="on_boarding_title_2">Canlı Takip Et</string>
+    <string name="on_boarding_subtitle_2">Harcamalarınızı istediğiniz para biriminde anlık olarak görüntüleyin !</string>
+    <string name="on_boarding_title_3">Kolayca Kategorilendir</string>
+    <string name="on_boarding_subtitle_3">Harcamalarınızı kategorileyerek kolayca takip edin !</string>
+    <string name="on_boarding_hint_3">Adını öğrenelim ve başlayalım !</string>
+    <string name="on_boarding_start_3">Başla</string>
+    <!--HomeScreen-->
+    <string name="no_connection_warning">İnternete Bağlı Değilsiniz !</string>
+    <string name="home_label_welcome">Merhaba</string>
+    <string name="home_label_expense">Harcamanız</string>
+    <string name="currency_try">TL</string>
+    <string name="currency_usd">Dolar</string>
+    <string name="currency_eur">Euro</string>
+    <string name="currency_gbp">Sterlin</string>
+    <string name="btn_add">Ekle</string>
+    <!--CreateScreen-->
+    <string name="create_title">Harcama Ekle</string>
+    <string name="description">Açıklama</string>
+    <string name="cost">Tutar</string>
+    <string name="expense_type_bill">Fatura</string>
+    <string name="expense_type_rent">Kira</string>
+    <string name="expense_type_other">Diğer</string>
+    <!--DetailScreen-->
+    <string name="button_delete">Sil</string>
+    <!--ProfileScreen-->
+    <string name="profile_title">Bilgileri Değiştir</string>
+    <string name="hint_name">İsminizi Giriniz</string>
+    <string name="gender_male">Erkek</string>
+    <string name="gender_female">Kadın</string>
+    <string name="gender_none">Belirtmek İstemiyorum</string>
+    <string name="btn_save">Kaydet</string>
+</resources>
