@@ -5,6 +5,7 @@ Kotlin dilinde **MVVM** mimarisi ile **Navigation, View Binding, Room DB, Retrof
 Uygulama açılışında bir splash screen ve uygulamanın ilk açılışında uygulamayı tanıtacak bir onboarding screen.
 
 ![alt text](images/splash_screen.jpg)
+
 ![alt text](images/onboarding_1.jpg)
 
 İlk açılışta kullanıcıya hitap edebilmek bir adına isim talep edilir.
@@ -15,6 +16,7 @@ Uygulama açılışında bir splash screen ve uygulamanın ilk açılışında u
 Toplam harcama ve her harcamanın tek tek fiyatını istenilen para biriminde **(TL, Dolar, Euro ve Sterlin)** görüntüleyebilirsiniz. Kurlar güncel olarak API üzerinden alınır.
 
 ![alt text](images/home_tl.jpg)
+
 ![alt text](images/home_euro.jpg)
 
 ## Ekleme ve Görüntüleme
