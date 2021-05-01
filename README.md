@@ -2,7 +2,7 @@
 Kotlin dilinde **MVVM** mimarisi ile **Navigation, View Binding, Room DB, Retrofit ve RecyclerView** kullanılarak geliştirilmiştir. Tüm harcamalarınızı desteklenen 4 para biriminde kayıt altında tutarak, API aracılığı ile güncel olarak takip edebilirsiniz. İnternetinizin olmadığı durumlarda da en son güncel verileri kullanarak sizin için en iyi deneyimi sağlar.
 
 ## Splash Screen & Onboarding Screens
-Uygulama açılışında bir splash screen ve uygulamanın ilk açılışında uygulamayı tanıtacak bir onboarding screen.
+Uygulama açılışında bir splash screen ve uygulamanın ilk açılışında uygulamayı tanıtacak bir onboarding screen. Ayrıca uygulamanın ***launcher_icon***'u da splash ekranındaki icon kullanılarak yapılmış bir logodur.
 
 ![alt text](images/splash_screen.jpg)
 
