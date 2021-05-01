@@ -35,4 +35,4 @@ Kişisel bilgilerin güncellenebileceğ profil ekranı.
 
 ![alt text](images/no_connection.jpg)
 
-Güncel kur takibi için [ExchangeRate-API](https://www.exchangerate-api.com/) kullanılmıştır (ücretsiz sürüm, ayda 30000 istek).
+Güncel kur takibi için [ExchangeRate-API](https://www.exchangerate-api.com/) kullanılmıştır (ücretsiz sürüm, ayda 30.000 istek).
